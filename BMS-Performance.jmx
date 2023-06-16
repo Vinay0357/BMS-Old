@@ -18,8 +18,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">20</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">40</stringProp>
+        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -84,7 +84,7 @@
             </elementProp>
             <elementProp name="pause2" elementType="Argument">
               <stringProp name="Argument.name">pause2</stringProp>
-              <stringProp name="Argument.value">2000</stringProp>
+              <stringProp name="Argument.value">3000</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="pause5" elementType="Argument">
@@ -183,7 +183,7 @@ var submit = WDS.browser.findElement(pkg.By.id(&quot;loginButton&quot;));
 submit.click();
 
 //java.lang.Thread.sleep(5000);
-java.lang.Thread.sleep(${pause5})
+java.lang.Thread.sleep(${pause2})
 
 var Advance = null;
 var proceedLink = null;
@@ -229,7 +229,7 @@ WDS.sampleResult.sampleEnd()</stringProp>
           <stringProp name="WebDriverSampler.language">javascript</stringProp>
         </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
         <hashTree/>
-        <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="Open Project" enabled="false">
+        <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="Open Project" enabled="true">
           <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium)
 var ui = JavaImporter(org.openqa.selenium.support.ui)
 var wait = new ui.WebDriverWait(WDS.browser,${elementwait})
@@ -239,29 +239,116 @@ var fileUtils = JavaImporter(org.apache.qpid.util)
 var io = JavaImporter(java.io)
 
 var OpenProject = WDS.browser.findElement(pkg.By.xpath(&quot;(//button[@class=&apos;action-btn minimal msl&apos;])[2]&quot;))
-OpenProject.click() //Clicks on light management from the side menu
+OpenProject.click();
 
 java.lang.Thread.sleep(${pause5})
 
+// Switch to the new tab
+var mainWindowHandle = WDS.browser.getWindowHandle();
+var currentHandles = new java.util.ArrayList(WDS.browser.getWindowHandles());
+currentHandles.remove(mainWindowHandle);
+var newTabHandle = currentHandles.get(0);
+WDS.browser.switchTo().window(newTabHandle);
+
+// Print tab details
+print(&quot;New Tab URL: &quot; + WDS.browser.getCurrentUrl());
+print(&quot;New Tab Title: &quot; + WDS.browser.getTitle());
+print(&quot;2nd Tab: &quot; + newTabHandle)
+
+java.lang.Thread.sleep(${pause2})
+
 WDS.sampleResult.sampleStart()
 
-try {
-	//Waits until text is visibles in the UI.
-	wait.until(ui.ExpectedConditions.visibilityOfElementLocated(pkg.By.xpath(&quot;//h1[contains(text(),&apos;Not Found&apos;)]&quot;))) 
-} catch (err) {
-    WDS.log.error(err.message)
-    var screenshot = WDS.browser.getScreenshotAs(pkg.OutputType.FILE)
-    screenshot.renameTo(new java.io.File(&apos;${Screenshot}//Open Project_${__time(ddMM_HHmm,)}.png&apos;))
-    exception = err
-    throw exception
-}
+java.lang.Thread.sleep(${pause10})
 
 WDS.sampleResult.sampleEnd()</stringProp>
           <stringProp name="WebDriverSampler.parameters"></stringProp>
           <stringProp name="WebDriverSampler.language">javascript</stringProp>
         </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
         <hashTree/>
-        <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="jp@gc - WebDriver Sampler" enabled="false">
+        <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="Device Graphs" enabled="true">
+          <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium)
+var ui = JavaImporter(org.openqa.selenium.support.ui)
+var wait = new ui.WebDriverWait(WDS.browser, ${elementwait})
+var conditions = org.openqa.selenium.support.ui.ExpectedConditions
+var exception = null
+var fileUtils = JavaImporter(org.apache.qpid.util)
+var io = JavaImporter(java.io)
+var files = JavaImporter(java.nio.file)
+var dateFormat = new java.text.SimpleDateFormat(&quot;yyyyMMdd_HHmmss&quot;)
+var timestamp = dateFormat.format(new java.util.Date())
+
+var openBuilding = WDS.browser.findElement(pkg.By.xpath(&quot;//div[@class=&apos;pna horizontal middle&apos;]&quot;))
+openBuilding.click()
+
+var building = WDS.browser.findElement(pkg.By.xpath(&quot;//ul[@class=&apos;items-list is-open can-scroll vertical&apos;]&quot;))
+building.click()
+
+java.lang.Thread.sleep(${pause1})
+
+var openFloor = WDS.browser.findElement(pkg.By.xpath(&quot;(//div[@class=&apos;pna horizontal middle&apos;])[2]&quot;))
+openFloor.click()
+
+java.lang.Thread.sleep(${pause1})
+
+var fifthFloor = WDS.browser.findElement(pkg.By.xpath(&quot;//ul[@class=&apos;items-list is-open can-scroll vertical&apos;]&quot;))
+fifthFloor.click()
+
+java.lang.Thread.sleep(${pause1})
+
+var openDevices = WDS.browser.findElement(pkg.By.xpath(&quot;(//div[@class=&apos;pna horizontal middle&apos;])[3]&quot;))
+openDevices.click()
+
+java.lang.Thread.sleep(${pause1})
+
+var selectDevice = WDS.browser.findElement(pkg.By.xpath(&quot;(//li[@class=&apos;pna vertical middle no-flex&apos;])[6]&quot;))
+selectDevice.click()
+
+java.lang.Thread.sleep(${pause1})
+
+var selectDeviceFromMenu = WDS.browser.findElement(pkg.By.xpath(&quot;(//li[@class=&apos;list-item&apos;])[3]&quot;))
+selectDeviceFromMenu.click()
+
+java.lang.Thread.sleep(${pause2})
+
+try {
+  // Capture screenshot
+  var screenshot = WDS.browser.getScreenshotAs(pkg.OutputType.FILE)
+
+  // Define the destination directory
+  var screenshotDirectory = &quot;C:/Users/RAC IT/Desktop/Error_Screenshots/&quot;
+
+  // Create the directory if it doesn&apos;t exist
+  new io.File(screenshotDirectory).mkdirs()
+
+  // Construct the screenshot filename with timestamp and user
+  var screenshotFilename = &quot;Snap&quot; + timestamp + &quot;_&quot; + &apos;${User}&apos; + &quot;.png&quot;
+
+  // Define the destination path
+  var screenshotPath = screenshotDirectory + screenshotFilename
+
+  // Save the screenshot to the specified path
+  var destinationPath = new io.File(screenshotPath).toPath()
+  files.Files.copy(screenshot.toPath(), destinationPath)
+
+  // Log a message indicating successful screenshot saving
+  WDS.log.info(&quot;Screenshot saved successfully: &quot; + screenshotPath)
+} catch (e) {
+  // Log the error message if any exception occurs
+  WDS.log.error(&quot;Failed to save the screenshot: &quot; + e)
+}
+
+WDS.sampleResult.sampleStart()
+
+java.lang.Thread.sleep(${pause10})
+
+WDS.sampleResult.sampleEnd()
+</stringProp>
+          <stringProp name="WebDriverSampler.parameters"></stringProp>
+          <stringProp name="WebDriverSampler.language">javascript</stringProp>
+        </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
+        <hashTree/>
+        <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="Send Command" enabled="false">
           <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium)
 var ui = JavaImporter(org.openqa.selenium.support.ui)
 var wait = new ui.WebDriverWait(WDS.browser,${elementwait})
@@ -270,45 +357,16 @@ var exception = null
 var fileUtils = JavaImporter(org.apache.qpid.util)
 var io = JavaImporter(java.io)
 
-var OpenProject = WDS.browser.findElement(pkg.By.xpath(&quot;(//button[@class=&apos;action-btn minimal msl&apos;])[2]&quot;))
-OpenProject.click()
+java.lang.Thread.sleep(${pause10})
 
-java.lang.Thread.sleep(${pause5})
+//var Item = WDS.browser.findElement(pkg.By.xpath(&quot;(//div[@class=&apos;icon-gear finComponent&apos;])[1]&quot;))
+var Item = WDS.browser.findElement(pkg.By.xpath(&quot;(//*[@class=&apos;finComponent&apos;])[6]&quot;))
+Item.click();
+
 
 WDS.sampleResult.sampleStart()
 
-// Get the current window handle
-var currentHandle = WDS.browser.getWindowHandle()
-var title = WDS.browser.getTitle();
-print(&quot;Window Title: &quot; + title);
-print(&quot;First Window ID: &quot; + currentHandle);
-
-// Get all the window handles
-var handles = WDS.browser.getWindowHandles()
-print(&quot;All Tabs ID&apos;s: &quot; + handles);
-
-// Switch to the new window/tab
-for (var handle in handles) {
-    if (handle != currentHandle) {
-        WDS.browser.switchTo().window(handle)
-        break
-    }
-}
-var currentHandle = WDS.browser.getWindowHandle()
-var title = WDS.browser.getTitle();
-print(&quot;Window Title: &quot; + title);
-print(&quot;Second window handle: &quot; + currentHandle);
-
-try {
-	//Waits until text is visibles in the UI.
-	wait.until(ui.ExpectedConditions.visibilityOfElementLocated(pkg.By.xpath(&quot;//h1[contains(text(),&apos;Not Found&apos;)]&quot;))) 
-} catch (err) {
-    WDS.log.error(err.message)
-    var screenshot = WDS.browser.getScreenshotAs(pkg.OutputType.FILE)
-    screenshot.renameTo(new java.io.File(&apos;${Screenshot}//Open Project_${__time(ddMM_HHmm,)}.png&apos;))
-    exception = err
-    throw exception
-}
+java.lang.Thread.sleep(${pause5})
 
 WDS.sampleResult.sampleEnd()</stringProp>
           <stringProp name="WebDriverSampler.parameters"></stringProp>
