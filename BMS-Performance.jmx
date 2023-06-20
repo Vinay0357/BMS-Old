@@ -61,14 +61,14 @@
               <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer; FileServer.getFileServer().getBaseDir();)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
+            <elementProp name="ChromePath" elementType="Argument">
+              <stringProp name="Argument.name">ChromePath</stringProp>
+              <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer; FileServer.getFileServer().getBaseDir();)}\Chromedriver</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
             <elementProp name="ResultsPath" elementType="Argument">
               <stringProp name="Argument.name">ResultsPath</stringProp>
               <stringProp name="Argument.value">${BasePath}/Results</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="ChromedriverPath" elementType="Argument">
-              <stringProp name="Argument.name">ChromedriverPath</stringProp>
-              <stringProp name="Argument.value">${BasePath}/Chromedriver</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="Screenshots" elementType="Argument">
@@ -152,7 +152,7 @@
           <boolProp name="WebDriverConfig.maximize_browser">true</boolProp>
           <boolProp name="WebDriverConfig.reset_per_iteration">false</boolProp>
           <boolProp name="WebDriverConfig.dev_mode">false</boolProp>
-          <stringProp name="ChromeDriverConfig.chromedriver_path">${ChromedriverPath}\chromedriver.exe</stringProp>
+          <stringProp name="ChromeDriverConfig.chromedriver_path">${ChromePath}\chromedriver.exe</stringProp>
           <boolProp name="ChromeDriverConfig.android_enabled">false</boolProp>
           <boolProp name="ChromeDriverConfig.headless_enabled">false</boolProp>
           <boolProp name="ChromeDriverConfig.insecurecerts_enabled">false</boolProp>
