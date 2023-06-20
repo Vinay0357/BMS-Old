@@ -19,7 +19,7 @@
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">150</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -59,7 +59,7 @@
             </elementProp>
             <elementProp name="elementwait" elementType="Argument">
               <stringProp name="Argument.name">elementwait</stringProp>
-              <stringProp name="Argument.value">70</stringProp>
+              <stringProp name="Argument.value">100</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="Screenshot" elementType="Argument">
@@ -433,53 +433,58 @@ var io = JavaImporter(java.io)
 try {
   var appLauncher = WDS.browser.findElement(pkg.By.xpath(&quot;//button[@class=&apos;link-button pna launcher-open-btn&apos;]&quot;))
   appLauncher.click();
-  
+
   var DBBuilder = WDS.browser.findElement(pkg.By.xpath(&quot;(//div[@class=&apos;vertical middle center app-item pna&apos;])[21]&quot;))
   DBBuilder.click();
-  
+
   java.lang.Thread.sleep(${pause5})
-  
+
   var equpTree = WDS.browser.findElement(pkg.By.xpath(&quot;(//div[@class=&apos;psh horizontal middle center disclosure-btn&apos;])[1]&quot;))
   equpTree.click();
-  
+
   java.lang.Thread.sleep(${pause5})
-  
+
   var RDOffice = WDS.browser.findElement(pkg.By.xpath(&quot;(//div[@class=&apos;psh horizontal middle center disclosure-btn&apos;])[2]&quot;))
   RDOffice.click();
-  
+
   java.lang.Thread.sleep(${pause5})
-  
+
   var Floor5 = WDS.browser.findElement(pkg.By.xpath(&quot;(//div[@class=&apos;psh horizontal middle center disclosure-btn&apos;])[3]&quot;))
   Floor5.click();
-  
+
   java.lang.Thread.sleep(${pause5})
-  
+
   var IrrPumpPoint = WDS.browser.findElement(pkg.By.xpath(&quot;(//div[@class=&apos;psh horizontal middle center disclosure-btn&apos;])[7]&quot;))
   IrrPumpPoint.click();
-  
+
   java.lang.Thread.sleep(${pause5})
-  
+
   var selectPoint = WDS.browser.findElement(pkg.By.xpath(&quot;(//*[@class=&apos;icon-location refresh-icon psh link-button msl&apos;])[6]&quot;))
   selectPoint.click();
-  
+
   java.lang.Thread.sleep(${pause5})
-  
+
   // Switch to the iframe
   var iframe = WDS.browser.findElement(pkg.By.className(&quot;mini-builder&quot;));
   WDS.browser.switchTo().frame(iframe);
-  
+
   java.lang.Thread.sleep(${pause5})
-  
+
   var sendCommandButton = WDS.browser.findElement(pkg.By.xpath(&quot;(//td[@class=&apos;ant-table-column-has-actions ant-table-column-has-filters ant-table-row-cell-break-word&apos;]//button)[2]&quot;))
   sendCommandButton.click();
-  
+
   java.lang.Thread.sleep(${pause5})
-  
-  // Wait for the popup to appear
-  var popup = wait.until(conditions.visibilityOfElementLocated(pkg.By.xpath(&quot;//*[@id=&apos;point-actions&apos;]/div&quot;)))
-  
-  var clickEmerActive = WDS.browser.findElement(pkg.By.xpath(&quot;//button[text()=&apos;Emergency Active&apos;]&quot;))
-  clickEmerActive.click();
+
+//  // Wait for the popup to appear
+//  var popup = wait.until(conditions.visibilityOfElementLocated(pkg.By.xpath(&quot;//*[@id=&apos;point-actions&apos;]/div&quot;)))
+//
+//  var clickEmerActive = WDS.browser.findElement(pkg.By.xpath(&quot;//button[text()=&apos;Emergency Active&apos;]&quot;))
+//  clickEmerActive.click();
+//
+//  java.lang.Thread.sleep(${pause5})
+
+  // Delay to allow the popup to fully load
+  java.lang.Thread.sleep(${pause5});
 } catch (e) {
   // Log the error message if any exception occurs
   print(&quot;The Error Is: &quot; + e)
