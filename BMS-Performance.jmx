@@ -16,7 +16,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="Users" elementType="Argument">
             <stringProp name="Argument.name">Users</stringProp>
-            <stringProp name="Argument.value">5</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
             <stringProp name="Argument.desc">Users</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
