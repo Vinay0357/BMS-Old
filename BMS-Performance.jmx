@@ -16,7 +16,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="Users" elementType="Argument">
             <stringProp name="Argument.name">Users</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
             <stringProp name="Argument.desc">Users</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -66,9 +66,9 @@
               <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer; FileServer.getFileServer().getBaseDir();)}\Chromedriver</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="ResultsPath" elementType="Argument">
-              <stringProp name="Argument.name">ResultsPath</stringProp>
-              <stringProp name="Argument.value">${BasePath}/Results</stringProp>
+            <elementProp name="Results_Path" elementType="Argument">
+              <stringProp name="Argument.name">Results_Path</stringProp>
+              <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer; FileServer.getFileServer().getBaseDir();)}/Results</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="Screenshots" elementType="Argument">
@@ -352,17 +352,17 @@ try {
   var screenshotFilename = &quot;Snap&quot; + timestamp + &quot;_&quot; + &apos;${User}&apos; + &quot;.png&quot;
 
   // Define the destination path
-  var screenshotPath = screenshotDirectory + screenshotFilename
+  var screenshotPath = screenshotDirectory + &quot;//&quot; + screenshotFilename
 
   // Save the screenshot to the specified path
   var destinationPath = new io.File(screenshotPath).toPath()
   files.Files.copy(screenshot.toPath(), destinationPath)
 
   // Log a message indicating successful screenshot saving
-  WDS.log.info(&quot;Screenshot saved successfully: &quot; + screenshotPath)
+  print(&quot;Screenshot saved successfully: &quot; + screenshotPath)
 } catch (e) {
   // Log the error message if any exception occurs
-  WDS.log.error(&quot;Failed to save the screenshot: &quot; + e)
+  print(&quot;Failed to save the screenshot: &quot; + e)
 }
 
 WDS.sampleResult.sampleStart()
@@ -448,7 +448,7 @@ WDS.sampleResult.sampleEnd()</stringProp>
           <stringProp name="WebDriverSampler.language">javascript</stringProp>
         </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
         <hashTree/>
-        <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="Send Command" enabled="true">
+        <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="Send Command" enabled="false">
           <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium)
 var ui = JavaImporter(org.openqa.selenium.support.ui)
 var wait = new ui.WebDriverWait(WDS.browser, ${elementwait})
@@ -562,6 +562,7 @@ WDS.sampleResult.sampleEnd()
             </value>
           </objProp>
           <stringProp name="filename"></stringProp>
+          <stringProp name="TestPlan.comments">${Results_Path}/AggregateGraph/BMS_Performance_${Users}-Users_${__time(ddMM_HHmm,)}.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
@@ -598,7 +599,7 @@ WDS.sampleResult.sampleEnd()
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">${Results_Path}/AggregateReport/BMS_Performance_${Users}-Users_${__time(ddMM_HHmm,)}.csv</stringProp>
           <stringProp name="TestPlan.comments">${Results_Path}/AggregateReport/BMS_Performance_${User}Users_${__time(ddMM_HHmm,)}.csv</stringProp>
         </ResultCollector>
         <hashTree/>
@@ -637,7 +638,7 @@ WDS.sampleResult.sampleEnd()
             </value>
           </objProp>
           <stringProp name="filename"></stringProp>
-          <stringProp name="TestPlan.comments">${Results_Path}/ViewResultTree/BMS_Performance_${User}Users_${__time(ddMM_HHmm,)}.csv</stringProp>
+          <stringProp name="TestPlan.comments">${Results_Path}/ViewResultTree/BMS_Performance_${Users}-Users_${__time(ddMM_HHmm,)}.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
