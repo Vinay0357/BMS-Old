@@ -16,13 +16,13 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="Users" elementType="Argument">
             <stringProp name="Argument.name">Users</stringProp>
-            <stringProp name="Argument.value">2</stringProp>
+            <stringProp name="Argument.value">50</stringProp>
             <stringProp name="Argument.desc">Users</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RampUp" elementType="Argument">
             <stringProp name="Argument.name">RampUp</stringProp>
-            <stringProp name="Argument.value">150</stringProp>
+            <stringProp name="Argument.value">280</stringProp>
             <stringProp name="Argument.desc">Seconds -&gt; Active Threads = Number of Users/RampUp Duration</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -349,7 +349,7 @@ try {
   new io.File(screenshotDirectory).mkdirs()
 
   // Construct the screenshot filename with timestamp and user
-  var screenshotFilename = &quot;Snap&quot; + timestamp + &quot;_&quot; + &apos;${User}&apos; + &quot;.png&quot;
+  var screenshotFilename = &quot;Snap&quot; + timestamp + &quot;_&quot; + &apos;${Users}&apos; + &quot;-&quot; + &quot;Users&quot; + &quot;_&quot; + &apos;${User}&apos; + &quot;.png&quot;
 
   // Define the destination path
   var screenshotPath = screenshotDirectory + &quot;//&quot; + screenshotFilename
@@ -527,6 +527,43 @@ WDS.sampleResult.sampleEnd()
           <stringProp name="WebDriverSampler.language">javascript</stringProp>
         </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
         <hashTree/>
+        <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="Logout" enabled="true">
+          <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium);
+var ui = JavaImporter(org.openqa.selenium.support.ui);
+var wait = new ui.WebDriverWait(WDS.browser, ${elementwait});
+var conditions = org.openqa.selenium.support.ui.ExpectedConditions;
+var exception = null;
+var fileUtils = JavaImporter(org.apache.qpid.util);
+var io = JavaImporter(java.io);
+
+var appLauncher = WDS.browser.findElement(pkg.By.xpath(&quot;//button[@class=&apos;link-button pna launcher-open-btn&apos;]&quot;))
+appLauncher.click();
+
+java.lang.Thread.sleep(${pause2})
+
+var Logout = WDS.browser.findElement(pkg.By.xpath(&quot;//span[text()=&apos;Logout&apos;]&quot;))
+Logout.click();
+
+java.lang.Thread.sleep(${pause2})
+
+WDS.sampleResult.sampleStart()
+
+
+try {
+	wait.until(ui.ExpectedConditions.visibilityOfElementLocated(pkg.By.xpath(&quot;//input[@id=&apos;loginButton&apos;]&quot;)))
+} catch (err) {
+    WDS.log.error(err.message)
+    var screenshot = WDS.browser.getScreenshotAs(pkg.OutputType.FILE)
+    screenshot.renameTo(new java.io.File(&apos;${Screenshot}//Login_Page_${__time(ddMM_HHmm,)}.png&apos;))
+    exception = err
+    throw exception
+}
+
+WDS.sampleResult.sampleEnd()</stringProp>
+          <stringProp name="WebDriverSampler.parameters"></stringProp>
+          <stringProp name="WebDriverSampler.language">javascript</stringProp>
+        </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
+        <hashTree/>
         <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
@@ -561,7 +598,7 @@ WDS.sampleResult.sampleEnd()
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">${Results_Path}/AggregateGraph/BMS_Performance_${Users}-Users_${__time(ddMM_HHmm,)}.csv</stringProp>
           <stringProp name="TestPlan.comments">${Results_Path}/AggregateGraph/BMS_Performance_${Users}-Users_${__time(ddMM_HHmm,)}.csv</stringProp>
         </ResultCollector>
         <hashTree/>
@@ -600,7 +637,7 @@ WDS.sampleResult.sampleEnd()
             </value>
           </objProp>
           <stringProp name="filename">${Results_Path}/AggregateReport/BMS_Performance_${Users}-Users_${__time(ddMM_HHmm,)}.csv</stringProp>
-          <stringProp name="TestPlan.comments">${Results_Path}/AggregateReport/BMS_Performance_${User}Users_${__time(ddMM_HHmm,)}.csv</stringProp>
+          <stringProp name="TestPlan.comments">${Results_Path}/AggregateReport/BMS_Performance_${Users}-Users_${__time(ddMM_HHmm,)}.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -637,7 +674,7 @@ WDS.sampleResult.sampleEnd()
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">${Results_Path}/ViewResultTree/BMS_Performance_${Users}-Users_${__time(ddMM_HHmm,)}.csv</stringProp>
           <stringProp name="TestPlan.comments">${Results_Path}/ViewResultTree/BMS_Performance_${Users}-Users_${__time(ddMM_HHmm,)}.csv</stringProp>
         </ResultCollector>
         <hashTree/>

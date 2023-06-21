@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="123" it="0" lt="0" ct="0" ts="1687343739524" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1778" sby="0" ng="1" na="1">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="872" it="0" lt="0" ct="0" ts="1687343743282" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="687686" sby="0" ng="2" na="2">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="206" it="0" lt="0" ct="0" ts="1687343745106" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1778" sby="0" ng="2" na="2">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="1112" it="0" lt="0" ct="0" ts="1687343749004" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="683950" sby="0" ng="3" na="3">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="196" it="0" lt="0" ct="0" ts="1687343750800" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="1778" sby="0" ng="3" na="3">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="1301" it="0" lt="0" ct="0" ts="1687343754706" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="687686" sby="0" ng="4" na="4">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="136" it="0" lt="0" ct="0" ts="1687343756285" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1778" sby="0" ng="4" na="4">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="1166" it="0" lt="0" ct="0" ts="1687343760088" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="687687" sby="0" ng="5" na="5">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="199" it="0" lt="0" ct="0" ts="1687343762022" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1778" sby="0" ng="5" na="5">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10011" it="0" lt="0" ct="0" ts="1687343753105" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="707351" sby="0" ng="5" na="5">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="1396" it="0" lt="0" ct="0" ts="1687343765944" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="687686" sby="0" ng="6" na="6">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="139" it="0" lt="0" ct="0" ts="1687343767633" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="1778" sby="0" ng="6" na="6">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10015" it="0" lt="0" ct="0" ts="1687343758838" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="706495" sby="0" ng="6" na="6">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="1651" it="0" lt="0" ct="0" ts="1687343771577" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="687686" sby="0" ng="7" na="7">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="170" it="0" lt="0" ct="0" ts="1687343773277" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="1778" sby="0" ng="7" na="7">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687343764616" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="707350" sby="0" ng="7" na="7">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="1551" it="0" lt="0" ct="0" ts="1687343777248" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="687685" sby="0" ng="8" na="8">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="155" it="0" lt="0" ct="0" ts="1687343778940" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="1778" sby="0" ng="8" na="8">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10013" it="0" lt="0" ct="0" ts="1687343770076" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="707351" sby="0" ng="8" na="8">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10008" it="0" lt="0" ct="0" ts="1687343772840" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="717967" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="215" it="0" lt="0" ct="0" ts="1687343784612" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="1778" sby="0" ng="9" na="9">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="1954" it="0" lt="0" ct="0" ts="1687343782864" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="687685" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10001" it="0" lt="0" ct="0" ts="1687343776017" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="707349" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10015" it="0" lt="0" ct="0" ts="1687343778438" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="717111" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="91" it="0" lt="0" ct="0" ts="1687343790244" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="308" it="0" lt="0" ct="0" ts="1687343790332" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2201" it="0" lt="0" ct="0" ts="1687343788533" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10008" it="0" lt="0" ct="0" ts="1687343781921" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="707352" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10008" it="0" lt="0" ct="0" ts="1687343784350" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="99" it="0" lt="0" ct="0" ts="1687343795870" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="435" it="0" lt="0" ct="0" ts="1687343796133" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-11" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2639" it="0" lt="0" ct="0" ts="1687343794295" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10005" it="0" lt="0" ct="0" ts="1687343787517" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="707349" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10003" it="0" lt="0" ct="0" ts="1687343789874" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="717967" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="344" it="0" lt="0" ct="0" ts="1687343801285" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-12" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="79" it="0" lt="0" ct="0" ts="1687343801953" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="2740" it="0" lt="0" ct="0" ts="1687343800284" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-11" dt="text" by="687686" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10006" it="0" lt="0" ct="0" ts="1687343793685" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="707351" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10011" it="0" lt="0" ct="0" ts="1687343796546" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="717965" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="87" it="0" lt="0" ct="0" ts="1687343807290" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="301" it="0" lt="0" ct="0" ts="1687343807067" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2631" it="0" lt="0" ct="0" ts="1687343805903" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-12" dt="text" by="687686" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10006" it="0" lt="0" ct="0" ts="1687343799675" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="707350" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10013" it="0" lt="0" ct="0" ts="1687343802368" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="717968" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="516" it="0" lt="0" ct="0" ts="1687343812899" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-14" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="116" it="0" lt="0" ct="0" ts="1687343813841" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="3434" it="0" lt="0" ct="0" ts="1687343811304" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10000" it="0" lt="0" ct="0" ts="1687343805779" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="707350" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10011" it="0" lt="0" ct="0" ts="1687343807683" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="717965" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="392" it="0" lt="0" ct="0" ts="1687343818190" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-15" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="112" it="0" lt="0" ct="0" ts="1687343819689" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="2770" it="0" lt="0" ct="0" ts="1687343817694" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-14" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10007" it="0" lt="0" ct="0" ts="1687343811910" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-11" dt="text" by="707350" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="381" it="0" lt="0" ct="0" ts="1687343824169" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-16" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10011" it="0" lt="0" ct="0" ts="1687343814625" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="717967" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="193" it="0" lt="0" ct="0" ts="1687343825494" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="3210" it="0" lt="0" ct="0" ts="1687343822810" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-15" dt="text" by="687686" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687343817415" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-12" dt="text" by="707350" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="444" it="0" lt="0" ct="0" ts="1687343829484" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-17" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10001" it="0" lt="0" ct="0" ts="1687343820674" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="2910" it="0" lt="0" ct="0" ts="1687343828476" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-16" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="379" it="0" lt="0" ct="0" ts="1687343832404" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10016" it="0" lt="0" ct="0" ts="1687343823453" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" by="707352" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="484" it="0" lt="0" ct="0" ts="1687343835386" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-18" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10011" it="0" lt="0" ct="0" ts="1687343826140" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="3232" it="0" lt="0" ct="0" ts="1687343833937" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-17" dt="text" by="687685" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="172" it="0" lt="0" ct="0" ts="1687343838105" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10013" it="0" lt="0" ct="0" ts="1687343829240" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-14" dt="text" by="707351" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="455" it="0" lt="0" ct="0" ts="1687343841120" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-19" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="3356" it="0" lt="0" ct="0" ts="1687343839900" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-18" dt="text" by="687686" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10000" it="0" lt="0" ct="0" ts="1687343833678" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-11" dt="text" by="717966" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="368" it="0" lt="0" ct="0" ts="1687343843850" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10005" it="0" lt="0" ct="0" ts="1687343834875" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-15" dt="text" by="707350" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="618" it="0" lt="0" ct="0" ts="1687343846756" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-20" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="3502" it="0" lt="0" ct="0" ts="1687343845629" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-19" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10003" it="0" lt="0" ct="0" ts="1687343839171" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-12" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10005" it="0" lt="0" ct="0" ts="1687343840479" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-16" dt="text" by="707351" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="919" it="0" lt="0" ct="0" ts="1687343852123" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-21" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="489" it="0" lt="0" ct="0" ts="1687343853072" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-11" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="3217" it="0" lt="0" ct="0" ts="1687343851511" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-20" dt="text" by="687687" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10094" it="0" lt="0" ct="0" ts="1687343845913" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" by="717968" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="936" it="0" lt="0" ct="0" ts="1687343856896" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-12" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10023" it="0" lt="0" ct="0" ts="1687343847412" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-17" dt="text" by="707349" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="543" it="0" lt="0" ct="0" ts="1687343858484" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-22" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="3076" it="0" lt="0" ct="0" ts="1687343857271" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-21" dt="text" by="687685" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10004" it="0" lt="0" ct="0" ts="1687343851484" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-14" dt="text" by="717967" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10019" it="0" lt="0" ct="0" ts="1687343852855" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-18" dt="text" by="707350" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="693" it="0" lt="0" ct="0" ts="1687343863567" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-23" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="394" it="0" lt="0" ct="0" ts="1687343864393" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="3267" it="0" lt="0" ct="0" ts="1687343863040" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-22" dt="text" by="687686" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10006" it="0" lt="0" ct="0" ts="1687343857888" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-15" dt="text" by="717966" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10030" it="0" lt="0" ct="0" ts="1687343858318" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-19" dt="text" by="707351" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="233" it="0" lt="0" ct="0" ts="1687343869796" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-14" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="578" it="0" lt="0" ct="0" ts="1687343869464" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-24" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2930" it="0" lt="0" ct="0" ts="1687343868438" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-23" dt="text" by="687685" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10034" it="0" lt="0" ct="0" ts="1687343863847" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-20" dt="text" by="707350" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="450" it="0" lt="0" ct="0" ts="1687343874989" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-25" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10003" it="0" lt="0" ct="0" ts="1687343865459" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-16" dt="text" by="717967" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="85" it="0" lt="0" ct="0" ts="1687343877687" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-15" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="3484" it="0" lt="0" ct="0" ts="1687343874105" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-24" dt="text" by="687689" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10117" it="0" lt="0" ct="0" ts="1687343869138" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-21" dt="text" by="707353" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10002" it="0" lt="0" ct="0" ts="1687343869919" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-17" dt="text" by="717965" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="2817" it="0" lt="0" ct="0" ts="1687343879470" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-25" dt="text" by="687687" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="99" it="0" lt="0" ct="0" ts="1687343883677" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-16" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10007" it="0" lt="0" ct="0" ts="1687343875445" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-22" dt="text" by="707350" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="331" it="0" lt="0" ct="0" ts="1687343886049" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-27" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10014" it="0" lt="0" ct="0" ts="1687343876167" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-18" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="73" it="0" lt="0" ct="0" ts="1687343888950" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-17" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10022" it="0" lt="0" ct="0" ts="1687343880124" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-23" dt="text" by="707350" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687343880839" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-19" dt="text" by="717967" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="338" it="0" lt="0" ct="0" ts="1687343890892" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-28" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2156" it="0" lt="0" ct="0" ts="1687343890260" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-27" dt="text" by="687688" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="135" it="0" lt="0" ct="0" ts="1687343893493" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-18" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10020" it="0" lt="0" ct="0" ts="1687343886398" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-24" dt="text" by="707350" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10001" it="0" lt="0" ct="0" ts="1687343886907" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-20" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="459" it="0" lt="0" ct="0" ts="1687343896932" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-29" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2696" it="0" lt="0" ct="0" ts="1687343895117" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-28" dt="text" by="687685" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="118" it="0" lt="0" ct="0" ts="1687343897980" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-19" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10022" it="0" lt="0" ct="0" ts="1687343891070" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-25" dt="text" by="707351" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10003" it="0" lt="0" ct="0" ts="1687343891191" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-21" dt="text" by="717969" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="465" it="0" lt="0" ct="0" ts="1687343902408" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-30" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2749" it="0" lt="0" ct="0" ts="1687343901472" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-29" dt="text" by="687686" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="114" it="0" lt="0" ct="0" ts="1687343904900" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-20" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10003" it="0" lt="0" ct="0" ts="1687343896229" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-22" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="404" it="0" lt="0" ct="0" ts="1687343908444" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-31" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="91" it="0" lt="0" ct="0" ts="1687343909055" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-21" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="2922" it="0" lt="0" ct="0" ts="1687343907120" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-30" dt="text" by="687688" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687343901008" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-23" dt="text" by="717966" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10004" it="0" lt="0" ct="0" ts="1687343901456" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-27" dt="text" by="707353" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="437" it="0" lt="0" ct="0" ts="1687343913696" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-32" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="109" it="0" lt="0" ct="0" ts="1687343914732" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-22" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="2383" it="0" lt="0" ct="0" ts="1687343912781" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-31" dt="text" by="687689" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10019" it="0" lt="0" ct="0" ts="1687343907025" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-28" dt="text" by="707350" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10006" it="0" lt="0" ct="0" ts="1687343907986" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-24" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="117" it="0" lt="0" ct="0" ts="1687343918414" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-23" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="326" it="0" lt="0" ct="0" ts="1687343918923" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-33" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2553" it="0" lt="0" ct="0" ts="1687343918104" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-32" dt="text" by="687687" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10004" it="0" lt="0" ct="0" ts="1687343913232" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-29" dt="text" by="707351" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10014" it="0" lt="0" ct="0" ts="1687343913359" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-25" dt="text" by="717967" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="793" it="0" lt="0" ct="0" ts="1687343924599" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-34" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="460" it="0" lt="0" ct="0" ts="1687343925479" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-24" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="3058" it="0" lt="0" ct="0" ts="1687343923342" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-33" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687343918897" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-30" dt="text" by="707350" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="397" it="0" lt="0" ct="0" ts="1687343930171" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-35" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="108" it="0" lt="0" ct="0" ts="1687343931323" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-25" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="2679" it="0" lt="0" ct="0" ts="1687343929377" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-34" dt="text" by="687687" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10005" it="0" lt="0" ct="0" ts="1687343923260" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-27" dt="text" by="717969" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10014" it="0" lt="0" ct="0" ts="1687343924092" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-31" dt="text" by="707350" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="529" it="0" lt="0" ct="0" ts="1687343935789" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-36" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2642" it="0" lt="0" ct="0" ts="1687343934622" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-35" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10004" it="0" lt="0" ct="0" ts="1687343927908" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-28" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10002" it="0" lt="0" ct="0" ts="1687343929705" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-32" dt="text" by="707348" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="370" it="0" lt="0" ct="0" ts="1687343940479" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-27" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="320" it="0" lt="0" ct="0" ts="1687343941432" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-37" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="3192" it="0" lt="0" ct="0" ts="1687343940195" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-36" dt="text" by="687686" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10006" it="0" lt="0" ct="0" ts="1687343934439" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-29" dt="text" by="717967" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10028" it="0" lt="0" ct="0" ts="1687343935388" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-33" dt="text" by="707351" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="187" it="0" lt="0" ct="0" ts="1687343945611" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-28" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="350" it="0" lt="0" ct="0" ts="1687343947324" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-38" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2780" it="0" lt="0" ct="0" ts="1687343946205" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-37" dt="text" by="687686" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10001" it="0" lt="0" ct="0" ts="1687343940419" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-30" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687343941151" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-34" dt="text" by="707351" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="234" it="0" lt="0" ct="0" ts="1687343951499" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-29" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="544" it="0" lt="0" ct="0" ts="1687343953004" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-39" dt="text" by="1778" sby="0" ng="10" na="10">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="3324" it="0" lt="0" ct="0" ts="1687343951750" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-38" dt="text" by="687686" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10015" it="0" lt="0" ct="0" ts="1687343945509" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-31" dt="text" by="717966" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10010" it="0" lt="0" ct="0" ts="1687343946437" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-35" dt="text" by="707351" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="609" it="0" lt="0" ct="0" ts="1687343957513" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-30" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="598" it="0" lt="0" ct="0" ts="1687343958591" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-40" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2753" it="0" lt="0" ct="0" ts="1687343957895" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-39" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10015" it="0" lt="0" ct="0" ts="1687343951352" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-32" dt="text" by="717964" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10013" it="0" lt="0" ct="0" ts="1687343952461" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-36" dt="text" by="707350" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="1030" it="0" lt="0" ct="0" ts="1687343963163" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-31" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="388" it="0" lt="0" ct="0" ts="1687343964924" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-41" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="3299" it="0" lt="0" ct="0" ts="1687343963394" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-40" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10004" it="0" lt="0" ct="0" ts="1687343957123" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-33" dt="text" by="717967" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10018" it="0" lt="0" ct="0" ts="1687343958032" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-37" dt="text" by="707351" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="279" it="0" lt="0" ct="0" ts="1687343969308" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-32" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="536" it="0" lt="0" ct="0" ts="1687343970082" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-42" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2883" it="0" lt="0" ct="0" ts="1687343969322" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-41" dt="text" by="687687" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10110" it="0" lt="0" ct="0" ts="1687343964326" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-38" dt="text" by="707350" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10005" it="0" lt="0" ct="0" ts="1687343964378" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-34" dt="text" by="717967" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="783" it="0" lt="0" ct="0" ts="1687343974721" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-33" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="596" it="0" lt="0" ct="0" ts="1687343975692" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-43" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="3509" it="0" lt="0" ct="0" ts="1687343974630" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-42" dt="text" by="687686" sby="0" ng="10" na="10">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10011" it="0" lt="0" ct="0" ts="1687343970180" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-35" dt="text" by="717967" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10022" it="0" lt="0" ct="0" ts="1687343969947" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-39" dt="text" by="707348" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="460" it="0" lt="0" ct="0" ts="1687343981730" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-44" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="65" it="0" lt="0" ct="0" ts="1687343983679" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-34" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="3326" it="0" lt="0" ct="0" ts="1687343980376" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-43" dt="text" by="687687" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10032" it="0" lt="0" ct="0" ts="1687343975768" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-40" dt="text" by="707350" sby="0" ng="12" na="12">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10036" it="0" lt="0" ct="0" ts="1687343976039" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-36" dt="text" by="717966" sby="0" ng="12" na="12">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="714" it="0" lt="0" ct="0" ts="1687343987159" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-45" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="2910" it="0" lt="0" ct="0" ts="1687343986286" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-44" dt="text" by="687686" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="229" it="0" lt="0" ct="0" ts="1687343990423" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-35" dt="text" by="1778" sby="0" ng="12" na="12">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10051" it="0" lt="0" ct="0" ts="1687343981186" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-41" dt="text" by="707350" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10005" it="0" lt="0" ct="0" ts="1687343981372" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-37" dt="text" by="717967" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="786" it="0" lt="0" ct="0" ts="1687343992587" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-46" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="3329" it="0" lt="0" ct="0" ts="1687343991825" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-45" dt="text" by="687674" sby="0" ng="12" na="12">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="279" it="0" lt="0" ct="0" ts="1687343995556" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-36" dt="text" by="1778" sby="0" ng="12" na="12">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10039" it="0" lt="0" ct="0" ts="1687343987236" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-42" dt="text" by="707350" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10002" it="0" lt="0" ct="0" ts="1687343987638" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-38" dt="text" by="717966" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="699" it="0" lt="0" ct="0" ts="1687343998374" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-47" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="426" it="0" lt="0" ct="0" ts="1687343999869" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-37" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="3396" it="0" lt="0" ct="0" ts="1687343997358" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-46" dt="text" by="687685" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10007" it="0" lt="0" ct="0" ts="1687343992716" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-39" dt="text" by="717964" sby="0" ng="12" na="12">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10009" it="0" lt="0" ct="0" ts="1687343992794" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-43" dt="text" by="707351" sby="0" ng="12" na="12">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="484" it="0" lt="0" ct="0" ts="1687344004199" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-48" dt="text" by="1778" sby="0" ng="12" na="12">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="134" it="0" lt="0" ct="0" ts="1687344005927" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-38" dt="text" by="1778" sby="0" ng="12" na="12">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="3158" it="0" lt="0" ct="0" ts="1687344003828" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-47" dt="text" by="687688" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10009" it="0" lt="0" ct="0" ts="1687343998284" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-40" dt="text" by="717966" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10016" it="0" lt="0" ct="0" ts="1687343998388" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-44" dt="text" by="707351" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="1219" it="0" lt="0" ct="0" ts="1687344008985" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-49" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="260" it="0" lt="0" ct="0" ts="1687344011723" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-39" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10015" it="0" lt="0" ct="0" ts="1687344002920" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-41" dt="text" by="717966" sby="0" ng="12" na="12">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="5068" it="0" lt="0" ct="0" ts="1687344008764" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-48" dt="text" by="687735" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="281" it="0" lt="0" ct="0" ts="1687344014911" s="true" lb="BMS Launch" rc="200" rm="OK" tn="Thread Group 1-50" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>http://10.254.152.98:8080/user/login</java.net.URL>
+</sample>
+<sample t="10009" it="0" lt="0" ct="0" ts="1687344005205" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-45" dt="text" by="707333" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="1027" it="0" lt="0" ct="0" ts="1687344017750" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-40" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="4084" it="0" lt="0" ct="0" ts="1687344015261" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-49" dt="text" by="687726" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10008" it="0" lt="0" ct="0" ts="1687344010280" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-42" dt="text" by="717966" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687344010293" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-46" dt="text" by="707346" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="353" it="0" lt="0" ct="0" ts="1687344021072" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-41" dt="text" by="1778" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="2890" it="0" lt="0" ct="0" ts="1687344019541" s="true" lb="Login" rc="200" rm="OK" tn="Thread Group 1-50" dt="text" by="687728" sby="0" ng="11" na="11">
+  <java.net.URL>https://10.254.152.98/home</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687344017781" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-47" dt="text" by="707352" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="78" it="0" lt="0" ct="0" ts="1687344028372" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-42" dt="text" by="1778" sby="0" ng="9" na="9">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10001" it="0" lt="0" ct="0" ts="1687344020227" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-43" dt="text" by="717967" sby="0" ng="8" na="8">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10010" it="0" lt="0" ct="0" ts="1687344023629" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-48" dt="text" by="707357" sby="0" ng="8" na="8">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10010" it="0" lt="0" ct="0" ts="1687344024097" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-44" dt="text" by="717967" sby="0" ng="8" na="8">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="49" it="0" lt="0" ct="0" ts="1687344036993" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-43" dt="text" by="1778" sby="0" ng="8" na="8">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10009" it="0" lt="0" ct="0" ts="1687344028980" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-49" dt="text" by="707351" sby="0" ng="7" na="7">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687344029677" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-45" dt="text" by="717949" sby="0" ng="7" na="7">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="49" it="0" lt="0" ct="0" ts="1687344040938" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-44" dt="text" by="1778" sby="0" ng="7" na="7">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10005" it="0" lt="0" ct="0" ts="1687344031400" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-46" dt="text" by="717962" sby="0" ng="7" na="7">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="10007" it="0" lt="0" ct="0" ts="1687344031586" s="true" lb="Open Project" rc="200" rm="OK" tn="Thread Group 1-50" dt="text" by="692737" sby="0" ng="6" na="6">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;url=%2Ffin5%2Fdemo%3FprojectRef%3D%401eedac62-ea569755%26title%3DshowSettings</java.net.URL>
+</sample>
+<sample t="45" it="0" lt="0" ct="0" ts="1687344046451" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-45" dt="text" by="1778" sby="0" ng="6" na="6">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10014" it="0" lt="0" ct="0" ts="1687344037244" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-47" dt="text" by="717968" sby="0" ng="5" na="5">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="34" it="0" lt="0" ct="0" ts="1687344048165" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-46" dt="text" by="1778" sby="0" ng="5" na="5">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10012" it="0" lt="0" ct="0" ts="1687344042883" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-48" dt="text" by="717973" sby="0" ng="4" na="4">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="47" it="0" lt="0" ct="0" ts="1687344053922" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-47" dt="text" by="1778" sby="0" ng="4" na="4">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10000" it="0" lt="0" ct="0" ts="1687344048158" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-49" dt="text" by="717967" sby="0" ng="3" na="3">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="48" it="0" lt="0" ct="0" ts="1687344059561" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-48" dt="text" by="1778" sby="0" ng="3" na="3">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="10009" it="0" lt="0" ct="0" ts="1687344050706" s="true" lb="Device Graphs" rc="200" rm="OK" tn="Thread Group 1-50" dt="text" by="703353" sby="0" ng="2" na="2">
+  <java.net.URL>https://10.254.152.98/finMobile/panasonic#frame?app=graphics&amp;targetRef=@p:panasonic:r:2bbe8f57-5257d533&amp;url=%2Ffin5%2Fpanasonic%3FprojectRef%3D%40p%3Apanasonic%3Ar%3A2bbe8fed-c3061e46%26title%3DshowSettings%23targetRef%3D%40p%3Apanasonic%3Ar%3A2bbe8f57-5257d533</java.net.URL>
+</sample>
+<sample t="68" it="0" lt="0" ct="0" ts="1687344064823" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-49" dt="text" by="1778" sby="0" ng="2" na="2">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+<sample t="123" it="0" lt="0" ct="0" ts="1687344067375" s="true" lb="Logout" rc="200" rm="OK" tn="Thread Group 1-50" dt="text" by="1778" sby="0" ng="1" na="1">
+  <java.net.URL>https://10.254.152.98/user/login</java.net.URL>
+</sample>
+
+</testResults>
